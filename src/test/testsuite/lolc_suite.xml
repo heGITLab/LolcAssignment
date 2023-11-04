@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LOLCTestSuite">
+    <test name="LOLCTest" preserve-order="true" thread-count="10" parallel="methods">
+        <classes>
+            <class name="com.lolc.testcases.web.SLLoginTestCase"/>
+        </classes>
+    </test>
+</suite>

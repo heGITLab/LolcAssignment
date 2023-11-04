@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LOLCTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="methods" name="LOLCTest(failed)" verbose="0">
+    <classes>
+      <class name="com.lolc.testcases.web.SLLoginTestCase">
+        <methods>
+          <include name="verifyInvalidPassword"/>
+          <include name="closure"/>
+          <include name="verifyEmptyUsername"/>
+          <include name="tearDown"/>
+          <include name="verifyEmptyPassword"/>
+          <include name="verifyInvalidUsername"/>
+          <include name="setupReport"/>
+          <include name="verifySuccessLogin"/>
+          <include name="createReport"/>
+          <include name="initialLoad"/>
+        </methods>
+      </class> <!-- com.lolc.testcases.web.SLLoginTestCase -->
+    </classes>
+  </test> <!-- LOLCTest(failed) -->
+</suite> <!-- Failed suite [LOLCTestSuite] -->

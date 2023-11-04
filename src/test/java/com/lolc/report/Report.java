@@ -120,7 +120,7 @@ public class Report extends TestBase {
 
         extentReports.flush();
         System.out.println("Report flushed in : " + extentHtmlReporter.getFilePath());
-        getWebdriver().quit();
+//        getWebdriver().quit();
 
     }
 

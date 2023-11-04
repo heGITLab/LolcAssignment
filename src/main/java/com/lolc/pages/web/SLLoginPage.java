@@ -13,6 +13,8 @@ public class SLLoginPage extends BasicCommands {
     private String id_field_username = "user-name";
     private String id_field_password = "password";
     private String id_btn_login = "login-button";
+    private String class_label_logo = "login_logo";
+    private String xpath_label_login_validation = "//h3[@data-test='error']";
 
     //  Locators
     public WebElement getUsernameField() {
@@ -33,6 +35,18 @@ public class SLLoginPage extends BasicCommands {
 
     }
 
+    public WebElement getLogoLabel() {
+
+        return  getWebdriver().findElement(By.className(class_label_logo));
+
+    }
+
+    public WebElement getLoginValidationLabel() {
+
+        return getWebdriver().findElement(By.xpath(xpath_label_login_validation));
+
+    }
+
     //  Operations
     public void validateSuccessLogin(String username, String password) {
 
@@ -43,4 +57,45 @@ public class SLLoginPage extends BasicCommands {
         Assert.assertEquals(slHomePage.getProductsLabel().getText(),"Products");
 
     }
+
+    public void validateInvalidUsername(String username, String password) {
+
+        type(getUsernameField(), username);
+        type(getPasswordField(), password);
+        click(getLoginButton());
+        waitUntilLoad(By.className("login_logo"), Util.WAIT_5_SEC);
+        Assert.assertEquals(getLoginValidationLabel().getText(),"Epic sadface: Username and password do not match any user in this service");
+
+    }
+
+    public void validateInvalidPassword(String username, String password) {
+
+        type(getUsernameField(), username);
+        type(getPasswordField(), password);
+        click(getLoginButton());
+        waitUntilLoad(By.className("login_logo"), Util.WAIT_5_SEC);
+        Assert.assertEquals(getLoginValidationLabel().getText(),"Epic sadface: Username and password do not match any user in this service");
+
+    }
+
+    public void validateEmptyUsername(String username, String password) {
+
+        type(getUsernameField(), username);
+        type(getPasswordField(), password);
+        click(getLoginButton());
+        waitUntilLoad(By.className("login_logo"), Util.WAIT_5_SEC);
+        Assert.assertEquals(getLoginValidationLabel().getText(),"Epic sadface: Username is required");
+
+    }
+
+    public void validateEmptyPassword(String username, String password) {
+
+        type(getUsernameField(), username);
+        type(getPasswordField(), password);
+        click(getLoginButton());
+        waitUntilLoad(By.className("login_logo"), Util.WAIT_5_SEC);
+        Assert.assertEquals(getLoginValidationLabel().getText(),"Epic sadface: Password is required");
+
+    }
+
 }

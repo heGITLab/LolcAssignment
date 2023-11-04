@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 16, Time elapsed: 7.311 s <<< FAILURE! - in TestSuite
+initialLoad(com.lolc.testcases.web.SLLoginTestCase)  Time elapsed: 0.51 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lolc.testcases.web.SLLoginTestCase.initialLoad(SLLoginTestCase.java:17)
+
