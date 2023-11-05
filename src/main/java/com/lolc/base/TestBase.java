@@ -7,12 +7,16 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Properties;
 
 public class TestBase {
 
     public static Properties properties = null;
     public static WebDriver driver = null;
+    public String url;
+    public String payLoadObject;
 
     public static Properties readProperties() {
 
@@ -62,6 +66,31 @@ public class TestBase {
     public static WebDriver getWebdriver() {
 
         return driver;
+
+    }
+
+    public String getUrl() {
+
+        url = readProperties().getProperty("url");
+
+        return url;
+
+    }
+
+    public String getPayloadString(String fileName) {
+
+        try {
+
+            String filePath = System.getProperty("user.dir") + "/src/payload/" + fileName;
+            payLoadObject = new String(Files.readAllBytes(Paths.get(filePath)));
+
+        } catch (IOException e) {
+
+            e.printStackTrace();
+
+        }
+
+        return payLoadObject;
 
     }
 }
