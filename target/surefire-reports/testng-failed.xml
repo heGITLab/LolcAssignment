@@ -3,20 +3,12 @@
 <suite name="Failed suite [LOLCTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" parallel="methods" name="LOLCTest(failed)" verbose="0">
     <classes>
-      <class name="com.lolc.testcases.web.SLLoginTestCase">
+      <class name="com.lolc.testcases.api.Requests">
         <methods>
-          <include name="verifyInvalidPassword"/>
-          <include name="closure"/>
-          <include name="verifyEmptyUsername"/>
-          <include name="tearDown"/>
-          <include name="verifyEmptyPassword"/>
-          <include name="verifyInvalidUsername"/>
-          <include name="setupReport"/>
-          <include name="verifySuccessLogin"/>
-          <include name="createReport"/>
-          <include name="initialLoad"/>
+          <include name="updateObject"/>
+          <include name="deleteObject"/>
         </methods>
-      </class> <!-- com.lolc.testcases.web.SLLoginTestCase -->
+      </class> <!-- com.lolc.testcases.api.Requests -->
     </classes>
   </test> <!-- LOLCTest(failed) -->
 </suite> <!-- Failed suite [LOLCTestSuite] -->

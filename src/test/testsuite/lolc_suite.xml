@@ -3,6 +3,7 @@
     <test name="LOLCTest" preserve-order="true" thread-count="10" parallel="methods">
         <classes>
             <class name="com.lolc.testcases.web.SLLoginTestCase"/>
+            <class name="com.lolc.testcases.api.Requests"/>
         </classes>
     </test>
 </suite>

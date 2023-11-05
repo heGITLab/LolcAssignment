@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.311" tests="17" errors="0" skipped="16" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.119" tests="4" errors="0" skipped="0" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/test-classes:/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/classes:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/harindaekanayake/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/harindaekanayake/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/harindaekanayake/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/harindaekanayake/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/harindaekanayake/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/harindaekanayake/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/harindaekanayake/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/harindaekanayake/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/harindaekanayake/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/harindaekanayake/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/harindaekanayake/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/harindaekanayake/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/harindaekanayake/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/harindaekanayake/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/harindaekanayake/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/harindaekanayake/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/harindaekanayake/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/harindaekanayake/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="java.class.path" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/test-classes:/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/classes:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/harindaekanayake/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/harindaekanayake/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/harindaekanayake/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/harindaekanayake/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/harindaekanayake/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/harindaekanayake/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/harindaekanayake/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/harindaekanayake/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/harindaekanayake/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/harindaekanayake/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/harindaekanayake/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/harindaekanayake/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/harindaekanayake/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/harindaekanayake/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/harindaekanayake/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/harindaekanayake/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/harindaekanayake/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/harindaekanayake/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/harindaekanayake/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/harindaekanayake/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/harindaekanayake/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/harindaekanayake/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/scala-support/4.3.1/scala-support-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
@@ -16,10 +16,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="LK"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/surefire/surefirebooter1307594517141022518.jar /Users/harindaekanayake/IdeaProjects/LolcAssignment/target/surefire 2023-11-04T22-21-48_318-jvmRun1 surefire11079713788817141128tmp surefire_02253393046865841524tmp"/>
+    <property name="sun.java.command" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/surefire/surefirebooter8103509195375948714.jar /Users/harindaekanayake/IdeaProjects/LolcAssignment/target/surefire 2023-11-05T20-31-03_870-jvmRun1 surefire4019411403772164417tmp surefire_015805515766183707735tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/test-classes:/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/classes:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/harindaekanayake/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/harindaekanayake/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/harindaekanayake/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/harindaekanayake/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/harindaekanayake/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/harindaekanayake/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/harindaekanayake/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/harindaekanayake/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/harindaekanayake/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/harindaekanayake/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/harindaekanayake/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/harindaekanayake/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/harindaekanayake/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/harindaekanayake/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/harindaekanayake/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/harindaekanayake/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/harindaekanayake/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/harindaekanayake/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/test-classes:/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/classes:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/harindaekanayake/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/harindaekanayake/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/harindaekanayake/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/harindaekanayake/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/harindaekanayake/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/harindaekanayake/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/harindaekanayake/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/harindaekanayake/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/harindaekanayake/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/harindaekanayake/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/harindaekanayake/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/harindaekanayake/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/harindaekanayake/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/harindaekanayake/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/harindaekanayake/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/harindaekanayake/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/harindaekanayake/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/harindaekanayake/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/harindaekanayake/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/harindaekanayake/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/harindaekanayake/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/harindaekanayake/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/harindaekanayake/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/harindaekanayake/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/harindaekanayake/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/harindaekanayake/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/harindaekanayake/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/harindaekanayake/.m2/repository/io/rest-assured/scala-support/4.3.1/scala-support-4.3.1.jar:/Users/harindaekanayake/.m2/repository/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar:/Users/harindaekanayake/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/harindaekanayake"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/surefire/surefirebooter1307594517141022518.jar"/>
+    <property name="surefire.real.class.path" value="/Users/harindaekanayake/IdeaProjects/LolcAssignment/target/surefire/surefirebooter8103509195375948714.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.7+8-LTS"/>
@@ -61,82 +61,209 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="initialLoad" classname="com.lolc.testcases.web.SLLoginTestCase" time="0.51">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.lolc.testcases.web.SLLoginTestCase.initialLoad(SLLoginTestCase.java:17)
-</failure>
+  <testcase name="deleteObject" classname="com.lolc.testcases.api.Requests" time="2.669">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
+
+	at com.lolc.testcases.api.Requests.deleteObject(Requests.java:84)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sun, 05 Nov 2023 15:01:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YW3KQ%2FZ6lltml28TpccEDZj2t7VTYdml1aSDZR6miSuxeG1fMuyLxnFq6h2CpoP6EAw3%2BKT2iktA%2B86y1ou61eX9ETIhbO1z2KJL47eYADTSRHEJQh5f9vWnF8RhSIfp3oEKZskG"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8215f862ada85134-CMB
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff8081818b8f5d07018ba00079e5101e",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2023-11-05T15:01:07.685+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 05 Nov 2023 15:01:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BcnGc9VZ9R6IsJ5GRa3dWrPYHVWeze63lqqwRN%2BH6BVdP31%2B%2FadsTgycB%2BtRsdaTg8na8QPggA9RBdhwNIHcMXSAPEN7P%2BioPiacuP9srmYqiwrv3a3%2BABvOyrvaeNJtYrnOaB7R"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8215f862adcf5138-CMB
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+HTTP/1.1 405 Method Not Allowed
+Date: Sun, 05 Nov 2023 15:01:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IWJPr7IUCs6tRzsp7k2nuDwX50IhX%2Ffpainh8TbYt90NrjfjeH5MeUlETg4xhig1IxkhsWyugbJ%2Fq%2BZEfxplBI6FRGie%2FzNfpu4gLUk2cUwKfO1TQopfCCcweWBpSOUobFWc4fjF"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8215f862ada45134-CMB
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "7 is a reserved id and the data object of it cannot be overridden. You can create a new object via POST request and use new generated by id from it to send a PUT request."
+}
+HTTP/1.1 405 Method Not Allowed
+Date: Sun, 05 Nov 2023 15:01:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wzl0m462p0w%2FdQ%2F6w1hklRshv2vTkD6tGcnXpZO8agQw2QBGmHFBH1IluTcGNKB3%2BcHnSq5TsG1sKuC8zKMt3NZD2xxVmOZWfycs4MMj6b39CKX2FC13ur8k1QKDeCUBXkBLlFWy"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8215f862ada55134-CMB
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "6 is a reserved id and the data object of it cannot be deleted. You can create your own new object via POST request and try to send a DELETE request with new generated object id."
+}
+]]></system-out>
   </testcase>
-  <testcase name="verifyInvalidPassword" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
+  <testcase name="updateObject" classname="com.lolc.testcases.api.Requests" time="2.67">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
+
+	at com.lolc.testcases.api.Requests.updateObject(Requests.java:67)
+]]></failure>
   </testcase>
-  <testcase name="closure" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="closure" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="closure" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="closure" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="closure" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createReport" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createReport" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createReport" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createReport" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createReport" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyInvalidUsername" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-    <system-err><![CDATA[SSStSatartingtart ChromeDrivrtintge ingCrhromeDrivera 1rting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 9503
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
- 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 12575
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
- ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 34996
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-19.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 23060
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-Nov 04, 2023 10:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Nov 04, 2023 10:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Nov 04, 2023 10:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Nov 04, 2023 10:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyEmptyUsername" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifySuccessLogin" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyEmptyPassword" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.lolc.testcases.web.SLLoginTestCase" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="addObject" classname="com.lolc.testcases.api.Requests" time="3.089"/>
+  <testcase name="getListOfAllObjects" classname="com.lolc.testcases.api.Requests" time="3.089"/>
 </testsuite>

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-LOLCTestSuite" class="navigator-link">
-              <span class="suite-name border-skipped">LOLCTestSuite</span>
+              <span class="suite-name border-failed">LOLCTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,41 +93,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  5 skipped,  </span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-LOLCTestSuite" class="hide-methods skipped suite-LOLCTestSuite"> (hide)</a> <!-- hide-methods skipped suite-LOLCTestSuite -->
-                      <a href="#" panel-name="suite-LOLCTestSuite" class="show-methods skipped suite-LOLCTestSuite"> (show)</a> <!-- show-methods skipped suite-LOLCTestSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LOLCTestSuite" class="hide-methods failed suite-LOLCTestSuite"> (hide)</a> <!-- hide-methods failed suite-LOLCTestSuite -->
+                      <a href="#" panel-name="suite-LOLCTestSuite" class="show-methods failed suite-LOLCTestSuite"> (show)</a> <!-- show-methods failed suite-LOLCTestSuite -->
                     </span>
-                    <div class="method-list-content skipped suite-LOLCTestSuite">
+                    <div class="method-list-content failed suite-LOLCTestSuite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.web.SLLoginTestCase" class="method navigator-link" hash-for-method="verifyEmptyPassword">verifyEmptyPassword</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.api.Requests" class="method navigator-link" hash-for-method="deleteObject">deleteObject</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.web.SLLoginTestCase" class="method navigator-link" hash-for-method="verifyEmptyUsername">verifyEmptyUsername</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.api.Requests" class="method navigator-link" hash-for-method="updateObject">updateObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LOLCTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LOLCTestSuite" class="hide-methods passed suite-LOLCTestSuite"> (hide)</a> <!-- hide-methods passed suite-LOLCTestSuite -->
+                      <a href="#" panel-name="suite-LOLCTestSuite" class="show-methods passed suite-LOLCTestSuite"> (show)</a> <!-- show-methods passed suite-LOLCTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-LOLCTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.api.Requests" class="method navigator-link" hash-for-method="addObject">addObject</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.web.SLLoginTestCase" class="method navigator-link" hash-for-method="verifyInvalidPassword">verifyInvalidPassword</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.api.Requests" class="method navigator-link" hash-for-method="getListOfAllObjects">getListOfAllObjects</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.web.SLLoginTestCase" class="method navigator-link" hash-for-method="verifyInvalidUsername">verifyInvalidUsername</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-LOLCTestSuite" title="com.lolc.testcases.web.SLLoginTestCase" class="method navigator-link" hash-for-method="verifySuccessLogin">verifySuccessLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-LOLCTestSuite -->
+                    </div> <!-- method-list-content passed suite-LOLCTestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -139,114 +143,117 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-LOLCTestSuite" class="panel LOLCTestSuite">
-          <div class="suite-LOLCTestSuite-class-skipped">
+          <div class="suite-LOLCTestSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.lolc.testcases.web.SLLoginTestCase</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.lolc.testcases.api.Requests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyEmptyPassword">
-                  </a> <!-- verifyEmptyPassword -->
-                  <span class="method-name">verifyEmptyPassword</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
-	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
-	at java.base/java.util.Properties.put(Properties.java:1326)
-	at java.base/java.util.Properties.setProperty(Properties.java:226)
-	at java.base/java.lang.System.setProperty(System.java:896)
-	at com.lolc.base.TestBase.setupWebdriver(TestBase.java:39)
-	at com.lolc.testcases.web.SLLoginTestCase.initialLoad(SLLoginTestCase.java:17)
+                  <a name="deleteObject">
+                  </a> <!-- deleteObject -->
+                  <span class="method-name">deleteObject</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:183)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$3.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:183)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.lolc.testcases.api.Requests.deleteObject(Requests.java:84)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyEmptyUsername">
-                  </a> <!-- verifyEmptyUsername -->
-                  <span class="method-name">verifyEmptyUsername</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
-	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
-	at java.base/java.util.Properties.put(Properties.java:1326)
-	at java.base/java.util.Properties.setProperty(Properties.java:226)
-	at java.base/java.lang.System.setProperty(System.java:896)
-	at com.lolc.base.TestBase.setupWebdriver(TestBase.java:39)
-	at com.lolc.testcases.web.SLLoginTestCase.initialLoad(SLLoginTestCase.java:17)
+                  <a name="updateObject">
+                  </a> <!-- updateObject -->
+                  <span class="method-name">updateObject</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$5.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:183)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$3.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:183)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.lolc.testcases.api.Requests.updateObject(Requests.java:67)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyInvalidPassword">
-                  </a> <!-- verifyInvalidPassword -->
-                  <span class="method-name">verifyInvalidPassword</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
-	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
-	at java.base/java.util.Properties.put(Properties.java:1326)
-	at java.base/java.util.Properties.setProperty(Properties.java:226)
-	at java.base/java.lang.System.setProperty(System.java:896)
-	at com.lolc.base.TestBase.setupWebdriver(TestBase.java:39)
-	at com.lolc.testcases.web.SLLoginTestCase.initialLoad(SLLoginTestCase.java:17)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyInvalidUsername">
-                  </a> <!-- verifyInvalidUsername -->
-                  <span class="method-name">verifyInvalidUsername</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
-	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
-	at java.base/java.util.Properties.put(Properties.java:1326)
-	at java.base/java.util.Properties.setProperty(Properties.java:226)
-	at java.base/java.lang.System.setProperty(System.java:896)
-	at com.lolc.base.TestBase.setupWebdriver(TestBase.java:39)
-	at com.lolc.testcases.web.SLLoginTestCase.initialLoad(SLLoginTestCase.java:17)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySuccessLogin">
-                  </a> <!-- verifySuccessLogin -->
-                  <span class="method-name">verifySuccessLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
-	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
-	at java.base/java.util.Properties.put(Properties.java:1326)
-	at java.base/java.util.Properties.setProperty(Properties.java:226)
-	at java.base/java.lang.System.setProperty(System.java:896)
-	at com.lolc.base.TestBase.setupWebdriver(TestBase.java:39)
-	at com.lolc.testcases.web.SLLoginTestCase.initialLoad(SLLoginTestCase.java:17)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-LOLCTestSuite-class-skipped -->
+          </div> <!-- suite-LOLCTestSuite-class-failed -->
+          <div class="suite-LOLCTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lolc.testcases.api.Requests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addObject">
+                  </a> <!-- addObject -->
+                  <span class="method-name">addObject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getListOfAllObjects">
+                  </a> <!-- getListOfAllObjects -->
+                  <span class="method-name">getListOfAllObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LOLCTestSuite-class-passed -->
         </div> <!-- panel LOLCTestSuite -->
         <div panel-name="test-xml-LOLCTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -259,7 +266,7 @@
 &lt;suite name=&quot;LOLCTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;10&quot; parallel=&quot;methods&quot; name=&quot;LOLCTest&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.lolc.testcases.web.SLLoginTestCase&quot;/&gt;
+      &lt;class name=&quot;com.lolc.testcases.api.Requests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LOLCTest --&gt;
 &lt;/suite&gt; &lt;!-- LOLCTestSuite --&gt;
@@ -299,32 +306,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyEmptyPassword')
-data.setCell(0, 2, 'com.lolc.testcases.web.SLLoginTestCase')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'getListOfAllObjects')
+data.setCell(0, 2, 'com.lolc.testcases.api.Requests')
+data.setCell(0, 3, 3091);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyEmptyUsername')
-data.setCell(1, 2, 'com.lolc.testcases.web.SLLoginTestCase')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'addObject')
+data.setCell(1, 2, 'com.lolc.testcases.api.Requests')
+data.setCell(1, 3, 3090);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySuccessLogin')
-data.setCell(2, 2, 'com.lolc.testcases.web.SLLoginTestCase')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'updateObject')
+data.setCell(2, 2, 'com.lolc.testcases.api.Requests')
+data.setCell(2, 3, 2658);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyInvalidUsername')
-data.setCell(3, 2, 'com.lolc.testcases.web.SLLoginTestCase')
-data.setCell(3, 3, 0);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyInvalidPassword')
-data.setCell(4, 2, 'com.lolc.testcases.web.SLLoginTestCase')
-data.setCell(4, 3, 0);
+data.setCell(3, 1, 'deleteObject')
+data.setCell(3, 2, 'com.lolc.testcases.api.Requests')
+data.setCell(3, 3, 2658);
 window.suiteTableData['LOLCTestSuite']= { tableData: data, tableDiv: 'times-div-LOLCTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-LOLCTestSuite">
               </div> <!-- times-div-LOLCTestSuite -->
             </div> <!-- times-div -->
@@ -350,97 +353,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.lolc.testcases.web.SLLoginTestCase</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setupReport</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">initialLoad</span>
-                <span class="method-start">178 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initialLoad</span>
-                <span class="method-start">178 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initialLoad</span>
-                <span class="method-start">178 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
+              <div class="chronological-class-name">com.lolc.testcases.api.Requests</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">initialLoad</span>
-                <span class="method-start">179 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initialLoad</span>
-                <span class="method-start">179 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyInvalidPassword</span>
-                <span class="method-start">188 ms</span>
+                <span class="method-name">deleteObject</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closure</span>
-                <span class="method-start">190 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">createReport</span>
-                <span class="method-start">190 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyInvalidUsername</span>
-                <span class="method-start">6487 ms</span>
+                <span class="method-name">getListOfAllObjects</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closure</span>
-                <span class="method-start">6488 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">createReport</span>
-                <span class="method-start">6490 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyEmptyUsername</span>
-                <span class="method-start">6598 ms</span>
+                <span class="method-name">addObject</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closure</span>
-                <span class="method-start">6599 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">createReport</span>
-                <span class="method-start">6599 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifySuccessLogin</span>
-                <span class="method-start">6771 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateObject</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closure</span>
-                <span class="method-start">6771 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">createReport</span>
-                <span class="method-start">6771 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verifyEmptyPassword</span>
-                <span class="method-start">6824 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closure</span>
-                <span class="method-start">6826 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">createReport</span>
-                <span class="method-start">6826 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">6828 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
